@@ -60,11 +60,11 @@ if uploaded_image:
     download_images_from_github(repo_url)
 
     def extract_index_nparray(nparray):
-    index = None
-    for num in nparray[0]:
-        index = num
-        break
-    return index
+        index = None
+        for num in nparray[0]:
+            index = num
+            break
+        return index
 
     path = '/content/test_cv_imgs/*.*'
     
